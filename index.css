@@ -1,5 +1,7 @@
 body {
     background-color: #030303;
+    font-family: 'Maven Pro', sans-serif;
+    text-rendering: optimizeLegibility;
 }
 
 .wrapper {
@@ -8,11 +10,22 @@ body {
 }
 
 h1 {
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 3px;
     color: #FFF
 }
 
 p {
-    color: #fff
+    color: #fff;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.txt-spaced {
+    letter-spacing: 1px;
 }
 
 .line-wrapper {
@@ -28,4 +41,14 @@ p {
 .txt-important {
     color: #fff;
     font-weight: 800;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-light {
+    background-color: #fff;
 }
