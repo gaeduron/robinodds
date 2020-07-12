@@ -1,17 +1,41 @@
+<!DOCTYPE html>
 <html>
     <head>
         <!-- CSS only -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
         <!-- JS, Popper.js, and jQuery -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./index.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
     </head>
     <body>
-        <div class="wrapper">
-            <h1>Start winning</h1>
-            <h3>Robin Odds is a betting AI that always improve,<br>it current accuracy is <code>%73</code></h3>
+        <div class="wrapper pt-5">
+            <h1>ROBIN ODDS</h1>
+            <div class="chart-wrapper my-5"></div>
+            <p>Robin Odds is a <b>self-improving AI</b> that find the <b>best</b> football matches to <b>bet</b> on.</p>
+            <div class="line-wrapper">
+                <p class="mb-0 txt-sm">Model accuracy:</p>
+                <p class="mb-0 txt-sm txt-important"><b>71%</b></p>
+            </div>
+            <div class="line-wrapper">
+                <p class="mb-0 txt-sm">Matches available per month:</p>
+                <p class="mb-0 txt-sm txt-important"><b>3</b></p>
+            </div>
+            <div class="line-wrapper">
+                <p class="mb-0 txt-sm">Average odds: </p>
+                <p class="mb-0 txt-sm txt-important"><b>2.11</b></p>
+            </div>
+            <div class="line-wrapper">
+                <p class="mb-0 txt-sm">Value (average gain per match): </p>
+                <p class="mb-0 txt-sm txt-important"><b>1.37</b></p>
+            </div>
+            <div class="btn-dark mt-5">
+                <p>Get the tips</p>
+            </div>
         </div>
     </body>
 </html>

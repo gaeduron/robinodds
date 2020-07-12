@@ -1,0 +1,31 @@
+body {
+    background-color: #030303;
+}
+
+.wrapper {
+    width: 300px;
+    margin: auto;
+}
+
+h1 {
+    color: #FFF
+}
+
+p {
+    color: #fff
+}
+
+.line-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-sm {
+    font-size: 10px;
+    color: #aaaaaa;
+}
+
+.txt-important {
+    color: #fff;
+    font-weight: 800;
+}
