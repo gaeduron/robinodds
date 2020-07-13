@@ -2,11 +2,13 @@ body {
     background-color: #030303;
     font-family: 'Maven Pro', sans-serif;
     text-rendering: optimizeLegibility;
+    overflow: hidden;
 }
 
 .wrapper {
     width: 300px;
     margin: auto;
+    /* overflow: hidden; */
 }
 
 h1 {
@@ -51,4 +53,95 @@ p {
 
 .btn-light {
     background-color: #fff;
+}
+
+.big-button {
+    padding: 15px 27px 15px 120px;
+    width: 400px;
+    transform: translate(-50px, 0px);
+    margin: auto;
+    text-align: left;
+    border-radius: 4px;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+.big-button--back {
+    transform: translate(-320px, 0px);
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+.big-button-left {
+    padding: 15px 27px 15px 24px;
+    width: 400px;
+    margin: auto;
+    text-align: left;
+    border-radius: 4px;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+.big-input {
+    padding: 15px 13px 15px 21px;
+    width: 400px;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+}
+
+.rotate-default {
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+.panel-right {
+    transform: translate(52vh, 0px);
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+
+.panel-right-visible {
+    transform: translate(-300px, 0px);
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+.panel-left {
+    transform: translate(0px, 0px);
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+.panel-left-hidden {
+    transform: translate(calc(-300px + -52vh), 0px);
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+.toast-success {
+    background-color: #ffffff !important;
+    color: black !important;
+    box-shadow: 0 0 0px #FFF !important;
+    font-size: 18px !important;
+}
+
+#toast-container > div {
+    opacity: 1;
+}
+
+.toast-close-button {
+    color: #aaaaaa;
+    margin: 0px 6px
+}
+
+.toast-message {
+    font-size: 12px;
 }
