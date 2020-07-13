@@ -2,7 +2,7 @@ body {
     background-color: #030303;
     font-family: 'Maven Pro', sans-serif;
     text-rendering: optimizeLegibility;
-    overflow: hidden;
+    height: 750px;
 }
 
 .wrapper {
@@ -57,7 +57,8 @@ p {
 
 .big-button {
     padding: 15px 27px 15px 120px;
-    width: 400px;
+    max-width: 400px;
+    width: 110%;
     transform: translate(-50px, 0px);
     margin: auto;
     text-align: left;
@@ -67,9 +68,18 @@ p {
 }
 
 .big-button--back {
-    transform: translate(-320px, 0px);
+    transform: translate(-280px, 0px);
     transition: ease-in-out;
     transition-duration: 0.3s;
+}
+
+@media (min-width: 375px) {
+    .big-button--back {
+        transform: translate(-320px, 0px);
+        transition: ease-in-out;
+        transition-duration: 0.3s;
+    
+    }
 }
 
 .big-button-left {
