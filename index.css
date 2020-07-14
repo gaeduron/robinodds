@@ -88,7 +88,7 @@ p {
 
 .big-button-left {
     padding: 15px 27px 15px 24px;
-    width: 400px;
+    width: 360px;
     margin: auto;
     text-align: left;
     border-radius: 4px;
@@ -98,7 +98,7 @@ p {
 
 .big-input {
     padding: 15px 13px 15px 21px;
-    width: 400px;
+    width: 360px;
     background-color: #333;
     border: none;
     border-radius: 4px;
