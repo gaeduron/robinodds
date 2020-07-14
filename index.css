@@ -5,6 +5,10 @@ body {
     height: 750px;
 }
 
+input {
+    color: #fff;
+}
+
 .wrapper {
     width: 300px;
     margin: auto;
@@ -155,3 +159,4 @@ p {
 .toast-message {
     font-size: 12px;
 }
+
